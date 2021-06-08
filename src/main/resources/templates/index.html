@@ -6,5 +6,8 @@
 </head>
 <body>
 	<div>トップページ</div>
+	<div th:text="${session.userId}"></div>
+	<a href="/shop/loginOnSession ">ログイン</a>
+	<a href="/shop/logout">ログアウト</a>
 </body>
 </html>
