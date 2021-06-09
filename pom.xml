@@ -56,6 +56,12 @@
 	 <systemPath>${basedir}/src/main/resources/lib/ojdbc7.jar</systemPath>
 	</dependency>
 
+	<!-- 入力チェックを利用するための設定 -->
+	<dependency>
+	 <groupId>org.springframework.boot</groupId>
+	 <artifactId>spring-boot-starter-validation</artifactId>
+	</dependency>
+
 	</dependencies>
 
 	<build>
